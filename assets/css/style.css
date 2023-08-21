@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #3498db;
+  color: #EF896A;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5faee3;
+  color: #EF896A;
   text-decoration: none;
 }
 
@@ -43,10 +43,10 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3498db;
+  background: #EF896A;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 20px;
   transition: all 0.4s;
 }
 
@@ -57,8 +57,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #57aae1;
-  color: #fff;
+  background: #EF896A;
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -157,12 +157,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #3498db;
+  color: #EF896A;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #3498db;
+  background: #EF896A;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -171,8 +171,8 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #4aa3df;
+  color: #ffffff;
+  background: #f7d1c6;
 }
 
 .navbar .dropdown ul {
@@ -381,13 +381,14 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #fff;
+  background: #EF896A;
+  border: 2px solid #EF896A;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
+  background: #ffffff;
+  color: #EF896A;;
 }
 
 
